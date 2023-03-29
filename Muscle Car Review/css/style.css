@@ -1,0 +1,260 @@
+body {
+	text-transform: uppercase;
+	display: block;
+}
+
+h1 {
+	font-size: 40px;
+	color: turquoise;
+	text-align: center;
+}
+
+.line {
+	border: 1px solid turquoise;
+}
+
+strong {
+	color: turquoise;
+}
+
+.banner {
+	background-color: turquoise;
+	/*height: 100px;
+	width: 100%;*/
+	text-align: left;
+	padding: 20px;
+}
+
+.banner h1 {
+	color: whitesmoke;
+}
+
+nav {
+	text-align: center;
+	height: 50px;
+	padding: 20px;
+	margin: 20px;
+	font-size: 20px;
+	font-family: Georgia;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	padding: 8px;
+	
+}
+
+li a {
+	color: #ff1a1a;
+	text-decoration: none;
+	/*
+  	width: 300px;*/
+  	padding: 10px 3px;
+  	border-radius: 5px;
+  	margin: 20% auto;
+  	background-color: whitesmoke;
+  	text-align: center;
+  	font-family: Helvetica;
+  	font-size: 20px;
+  	transition-property: background-color;
+  	transition-duration: 2s;
+}
+
+.article {
+		/*border: lightslategrey;*/
+		background-color: #f5f5f0;
+		/*border-radius: 2px;
+		border-style: dashed;*/
+		width: 80%;
+		padding: 50px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+	width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+	/* For tablets: */
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.33%;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;}
+	.col-s-7 {width: 58.33%;}
+	.col-s-8 {width: 66.66%;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+	/* For desktop: */
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-61 {width: 50%;}
+	.col-62 {width: 50%}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+  }
+
+/*img {
+	border: 1px solid #ff1a1a;
+	border-radius: 4px;
+	padding: 5px;
+	width: 200px;
+}
+
+img:hover {
+	img:hover {
+		box-shadow: 0 0 2px 1px turquoise;
+	  }
+}*/
+
+.review p{
+	align-items: center;
+  	font-family: 'Merriweather', serif;
+  	font-weight: 300;
+  	font-size: 0.8rem;
+  	text-align: center;
+  	line-height: 1.8;
+  	color: #444444;
+	text-transform: capitalize;
+}
+
+.review a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	
+}
+
+.pic-space img {
+	width: 100%;
+	height: 550px;
+}
+
+.pic-space1 img {
+	width: 100%;
+	height: 550px;
+	opacity: 0.3;
+}
+
+.par1 {
+	text-align: center;
+}
+
+.social img{
+	width: auto;
+	height: 100px;
+}
+
+.par1 h2 {
+	font-family: Trebuchet MS;
+} 
+
+li a.active { 
+	background-color: dodgerblue; 
+	color: beige;
+	border-radius: 8px;
+}
+
+a:hover:not(.active) { 
+	color: turquoise;
+}
+
+hr {
+	background-color: #000;
+	width: 50%;
+}
+
+.col-61 {
+	height: 50%;
+	float: left;
+	text-align: center;
+}
+
+.col-62 {
+	height: 50%;
+	float: right;
+	text-align: center;
+}
+
+.col-3 {
+	height: 25%;
+	float: left;
+	text-align: center;
+}
+
+.formT input[type=text]{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid turquoise;
+	border-radius: 4px;
+	color: turquoise;
+	font-family: Georgia;
+	font-size: 20px;
+}
+
+.formT input[type=text]:focus {
+	border: 3px solid #ff1a1a;
+	outline: #ff1a1a;
+  }
+
+.formT textarea {
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid turquoise;
+	border-radius: 4px;
+	color: turquoise;
+	height: 200px;
+	width: 100%;
+	font-family: Georgia;
+	font-size: 20px;
+}
+
+.formT textarea:focus {
+	border: 3px solid #ff1a1a;
+	outline: #ff1a1a;
+}
+
+.formT input[type=submit] {
+	background-color: turquoise;
+	color: #ff1a1a;
+	border: none;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	width: 50%;
+	font-family: Georgia;
+	font-size: 16px;
+}
+
+footer {
+	padding: 5rem 0;
+  	border-top: 1px solid #999999;
+  	color: #999999;
+  	text-align: center;
+  	font-size: 1.1em;
+}
+
+footer strong {
+	color: turquoise;
+}
